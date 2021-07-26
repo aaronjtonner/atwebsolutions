@@ -33,7 +33,7 @@
   --clr-secondary-dark: rgb(228, 228, 228);
   --clr-dark: #171219;
   --clr-accent: #0080ff;
-  --clr-accent-darker: #78bbff;
+  --clr-accent-darker: #005fbe;
   --clr-overlay: rgba(0, 0, 0, 0.3);
   --clr-overlay-darker: rgba(0, 0, 0, 0.7);
 
@@ -95,6 +95,11 @@ h3 {
   line-height: 1.1;
 }
 
+p,
+li {
+  font-size: var(--fs-b);
+}
+
 a {
   display: block;
 }
@@ -112,6 +117,12 @@ blockquote p {
   font-weight: var(--fw-500);
   font-style: italic;
   color: var(--txt-dark-secondary);
+}
+
+hr {
+  background-color: var(--clr-accent);
+  height: 1px;
+  border: none;
 }
 
 /* typography */

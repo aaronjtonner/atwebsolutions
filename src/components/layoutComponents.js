@@ -137,3 +137,19 @@ export const GridAuto = styled.div`
     align-self: center;
   }
 `
+
+export const TextWrapper = styled.div`
+  width: 100%;
+  max-width: 70ch;
+
+  h1,
+  h2,
+  h3 {
+    margin-bottom: var(--spacer-lg);
+  }
+
+  p,
+  ul {
+    margin-bottom: var(--spacer);
+  }
+`
