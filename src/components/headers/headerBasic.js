@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import styled from "styled-components"
+import { IoMdArrowDropdown } from "react-icons/io"
 
 const device = {
   lg: "50em",
@@ -66,6 +67,36 @@ const NavListBottom = styled.ul`
   }
 `
 
+const Dropdown = styled.li`
+  /* hover display only on desktop */
+  @media screen and (min-width: ${device.lg}) {
+    ul {
+      position: absolute;
+      z-index: 1000;
+      display: none;
+      opacity: 1;
+      margin: 0;
+      padding: 2em 2em 2em 1em;
+      list-style-type: none;
+      background: var(--clr-secondary);
+      color: var(--txt-dark);
+
+      li {
+        a {
+          color: var(--txt-dark);
+        }
+      }
+    }
+
+    &:hover {
+      ul {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+`
+
 const StyledLink = styled(props => <Link {...props} />)`
   text-decoration: none;
   color: var(--txt-light);
@@ -74,16 +105,24 @@ const StyledLink = styled(props => <Link {...props} />)`
   font-weight: var(--fw-button);
   letter-spacing: 0.08em;
   transition: all 0.25s linear;
+  // aligning text with icon
+  display: flex;
+  align-items: center;
+  gap: 2px;
   :hover,
   :focus {
     opacity: 0.7;
   }
 `
-const StyledLinkLight = styled(props => <Link {...props} />)`
+const StyledLinkDark = styled(props => <Link {...props} />)`
   text-decoration: none;
   text-transform: capitalize;
-  color: var(--txt-light);
+  color: var(--txt-dark);
   transition: all 0.25s linear;
+  // aligning text with icon
+  display: flex;
+  align-items: center;
+  gap: 2px;
   :hover,
   :focus {
     opacity: 0.7;
@@ -144,9 +183,20 @@ export default function HeaderBasic() {
               <li>
                 <StyledLink to="/portfolio">my work</StyledLink>
               </li>
-              {/* <li>
-                <StyledLink to="/blog">growth tips</StyledLink>
-              </li> */}
+              <Dropdown>
+                <StyledLink to="/services">
+                  services
+                  <IoMdArrowDropdown size={20} />
+                </StyledLink>
+                <ul>
+                  <li>
+                    <StyledLinkDark to="/services/web-designer-calgary">
+                      web design
+                    </StyledLinkDark>
+                  </li>
+                  <hr />
+                </ul>
+              </Dropdown>
               <li>
                 <StyledLink to="/contact">contact</StyledLink>
               </li>
