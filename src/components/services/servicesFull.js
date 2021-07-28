@@ -1,18 +1,33 @@
 import React from "react"
+import { Link } from "gatsby"
 import styled from "styled-components"
 import { StaticImage } from "gatsby-plugin-image"
 import { Section, Container, TextWrapper, GridTwo } from "../layoutComponents"
 
-const Service = styled.div`
+const Service = styled(props => <Link {...props} />)`
   padding: 2em;
   border-radius: var(--br);
   box-shadow: var(--shadow-light);
+  text-decoration: none;
+  color: var(--txt-dark);
   .service-img {
     width: 150px;
     height: 150px;
     object-fit: cover;
-    border-radius: 100000px;
+    border-radius: var(--br);
+    box-shadow: rgba(0, 128, 255, 0.4) 0px 8px 24px;
   }
+
+  h2 {
+    text-decoration: underline;
+  }
+`
+
+const ReadMore = styled.p`
+  font-size: var(--fs-sm);
+  color: var(--clr-accent);
+  font-weight: var(--fw-button);
+  text-transform: uppercase;
 `
 
 export default function ServicesFull(props) {
@@ -24,7 +39,7 @@ export default function ServicesFull(props) {
           <p>{props.body}</p>
         </TextWrapper>
         <GridTwo>
-          <Service className="spacing">
+          <Service to="/services/web-designer-calgary" className="spacing">
             <StaticImage
               className="service-img"
               src={"../../images/services/web-design-calgary.png"}
@@ -39,11 +54,14 @@ export default function ServicesFull(props) {
               similique odio doloremque adipisci? Esse possimus reprehenderit
               ad, optio veniam tempore nam? Quis debitis dignissimos nisi!
             </p>
+            <ReadMore>read more &#8594;</ReadMore>
           </Service>
           <Service className="spacing">
             <StaticImage
               className="service-img"
-              src={"../../images/ph.png"}
+              src={
+                "../../images/services/mobile-responsive-website-design-services-calgary.png"
+              }
               alt="mobile responsive website design services calgary"
               placeholder="blurred"
             />
@@ -59,7 +77,7 @@ export default function ServicesFull(props) {
           <Service className="spacing">
             <StaticImage
               className="service-img"
-              src={"../../images/ph.png"}
+              src={"../../images/services/web-development-services-calgary.png"}
               alt="web development services calgary"
               placeholder="blurred"
             />
@@ -75,7 +93,9 @@ export default function ServicesFull(props) {
           <Service className="spacing">
             <StaticImage
               className="service-img"
-              src={"../../images/ph.png"}
+              src={
+                "../../images/services/website-maintenance-updates-services-calgary.png"
+              }
               alt="website maintenance and updates services calgary"
               placeholder="blurred"
             />
@@ -91,7 +111,9 @@ export default function ServicesFull(props) {
           <Service className="spacing">
             <StaticImage
               className="service-img"
-              src={"../../images/ph.png"}
+              src={
+                "../../images/services/web-design-support-services-calgary.png"
+              }
               alt="web design support services calgary"
               placeholder="blurred"
             />
@@ -107,7 +129,7 @@ export default function ServicesFull(props) {
           <Service className="spacing">
             <StaticImage
               className="service-img"
-              src={"../../images/ph.png"}
+              src={"../../images/services/local-seo-services-calgary.png"}
               alt="local seo services calgary"
               placeholder="blurred"
             />
@@ -123,7 +145,9 @@ export default function ServicesFull(props) {
           <Service className="spacing">
             <StaticImage
               className="service-img"
-              src={"../../images/ph.png"}
+              src={
+                "../../images/services/free-web-hosting-services-calgary.png"
+              }
               alt="free web hosting services calgary"
               placeholder="blurred"
             />
@@ -139,7 +163,9 @@ export default function ServicesFull(props) {
           <Service className="spacing">
             <StaticImage
               className="service-img"
-              src={"../../images/ph.png"}
+              src={
+                "../../images/services/google-my-business-services-calgary.png"
+              }
               alt="google my business services calgary"
               placeholder="blurred"
             />

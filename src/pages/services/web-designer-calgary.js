@@ -191,19 +191,19 @@ export default function WebDesignerCalgary() {
               <strong> website designer Calgary Alberta</strong> means you’re
               going to experience reliable customer support, at a reasonable
               cost, throughout the entire duration of your website project. My
-              website design services, and development services start at an
-              affordable price of $3,000 CAD. Your customers have high
-              expectations for how your company is represented online and they
-              expect to find information about your products or services as
-              quickly and easily as possible in a way that’s going to help them
-              make a buying decision. With that being said, custom web design
-              services Calgary requires proper planning and research that will
-              help you stand out from your local competition while ensuring your
-              customers are having a happy experience on your web page. Although
-              the price of starting a new project may seem steep, you’ll be
-              working with a web consultant that knows what it takes to provide
-              the right solution for your business that’s going to result in a
-              return on your investment.
+              website design & development services start at an affordable price
+              of $3,000 CAD. Your customers have high expectations for how your
+              company is represented online and they expect to find information
+              about your products or services as quickly and easily as possible
+              in a way that’s going to help them make a buying decision. With
+              that being said, custom web design services Calgary requires
+              proper planning and research that will help you stand out from
+              your local competition while ensuring your customers are having a
+              happy experience on your web page. Although the price of starting
+              a new project may seem steep, you’ll be working with a web
+              consultant that knows what it takes to provide the right solution
+              for your business that’s going to result in a return on your
+              investment.
             </p>
             <p>
               Web design pricing is also determined by other factors relating to
