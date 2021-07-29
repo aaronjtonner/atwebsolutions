@@ -13,7 +13,7 @@ export default function ContactInfo() {
     <Wrapper className="spacing">
       <div>
         <p className="bold">Aaron Tonner Web Solutions</p>
-        <p>Toronto, ON</p>
+        <p>Calgary, AB</p>
         <p>Canada</p>
       </div>
       <div>
