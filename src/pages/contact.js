@@ -10,7 +10,7 @@ import FooterBasic from "../components/footers/footerBasic"
 export default function Contact() {
   return (
     <div>
-      <SEO title="Freelance Web Designer & Developer - Contact" />
+      <SEO title="Contact" />
       <Header />
       <FormContact />
       <Clients />

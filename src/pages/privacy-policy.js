@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 export default function privacy() {
   return (
     <div>
-      <SEO title="Freelance Web Designer & Developer - Privacy Policy" />
+      <SEO title="Privacy Policy" />
       <HeaderBasic />
       <Section>
         <Container>

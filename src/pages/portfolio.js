@@ -10,7 +10,7 @@ import FormContact from "../components/forms/formContact"
 export default function Portfolio() {
   return (
     <Layout>
-      <SEO title="Freelance Web Designer & Developer - Portfolio" />
+      <SEO title="Portfolio" />
       <TestimonialsFull />
       <GalleryFull />
       <Clients />

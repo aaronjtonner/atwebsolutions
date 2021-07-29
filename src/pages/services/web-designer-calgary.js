@@ -57,7 +57,7 @@ export default function WebDesignerCalgary() {
   return (
     <Layout>
       <SEO
-        title="Web Designer Calgary - Services"
+        title="Web Designer Calgary"
         description="I am a trusted web designer in calgary. I offer affordable web design, development, SEO services in calgary for your local business. Call me at 587-437-9161 to discuss your next website design project!"
       />
       <BannerBasic img={BannerBasicImg} title="web designer calgary" />
