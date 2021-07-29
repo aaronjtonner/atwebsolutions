@@ -146,10 +146,15 @@ export const TextWrapper = styled.div`
   h2,
   h3 {
     margin-bottom: var(--spacer-lg);
+    text-transform: capitalize;
   }
 
-  p,
-  ul {
+  p {
     margin-bottom: var(--spacer);
+  }
+
+  ul {
+    margin: 0 0 var(--spacer) 0;
+    padding: 0;
   }
 `

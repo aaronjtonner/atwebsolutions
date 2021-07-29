@@ -37,7 +37,7 @@ export const ButtonPrimary = styled(props => <Link {...props} />)`
   }
 `
 
-export const ButtonPrimaryDark = styled(props => <Link {...props} />)`
+export const ButtonPrimaryLight = styled(props => <Link {...props} />)`
   cursor: pointer;
   display: inline-block;
   font-size: var(--fs-sm);
@@ -48,9 +48,8 @@ export const ButtonPrimaryDark = styled(props => <Link {...props} />)`
   padding: 1em 1.33em;
   transition: all 0.2s linear;
 
-  background: var(--clr-dark);
-  color: var(--txt-light);
-  border: 1px solid var(--clr-dark);
+  background: var(--clr-secondary);
+  color: var(--txt-dark);
 
   &:hover {
     opacity: 0.8;

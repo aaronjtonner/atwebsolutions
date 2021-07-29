@@ -4,7 +4,7 @@ import { GridTwo } from "./layoutComponents"
 import { IoMdThumbsUp } from "react-icons/io"
 import { GrUserWorker } from "react-icons/gr"
 import { GiElectric, GiConcreteBag, GiBulldozer } from "react-icons/gi"
-import { FaHammer } from "react-icons/fa"
+import { FaHammer, FaStore } from "react-icons/fa"
 
 const Wrapper = styled.div`
   background: var(--clr-accent-darker);
@@ -19,45 +19,36 @@ const Industry = styled.div`
 
 export default function Industries() {
   return (
-    <Wrapper>
+    <Wrapper className="spacing-md">
       <GridTwo>
         <Industry className="spacing">
-          <GiBulldozer size={40} />
+          <GiBulldozer size={60} />
           <p className="bold upper">construction & general contractors</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quasi
-            provident error, eveniet dolorem excepturi modi velit labore aperiam
-            illo officiis sit nemo debitis rem dolore tempore nisi a quia?
-          </p>
+          <p></p>
         </Industry>
         <Industry className="spacing">
-          <GiElectric size={40} />
+          <GiElectric size={60} />
           <p className="bold upper">electrical contractors</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quasi
-            provident error, eveniet dolorem excepturi modi velit labore aperiam
-            illo officiis sit nemo debitis rem dolore tempore nisi a quia?
-          </p>
+          <p></p>
         </Industry>
         <Industry className="spacing">
-          <FaHammer size={40} />
+          <FaHammer size={60} />
           <p className="bold upper">home renovators</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quasi
-            provident error, eveniet dolorem excepturi modi velit labore aperiam
-            illo officiis sit nemo debitis rem dolore tempore nisi a quia?
-          </p>
+          <p></p>
         </Industry>
         <Industry className="spacing">
-          <GiConcreteBag size={40} />
+          <GiConcreteBag size={60} />
           <p className="bold upper">concrete contractors</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quasi
-            provident error, eveniet dolorem excepturi modi velit labore aperiam
-            illo officiis sit nemo debitis rem dolore tempore nisi a quia?
-          </p>
+          <p></p>
         </Industry>
       </GridTwo>
+      <div>
+        <Industry className="spacing">
+          <FaStore size={60} />
+          <p className="bold upper">other local businesses</p>
+          <p></p>
+        </Industry>
+      </div>
     </Wrapper>
   )
 }

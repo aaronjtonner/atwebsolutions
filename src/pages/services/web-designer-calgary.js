@@ -8,9 +8,14 @@ import {
   Container,
   Flex,
   TextWrapper,
+  GridTwo,
+  GridThree,
 } from "../../components/layoutComponents"
 import { ButtonInline, AnchorInline } from "../../components/buttons"
 import Industries from "../../components/industries"
+import Clients from "../../components/clients"
+import FormContact from "../../components/forms/formContact"
+import CallToAction from "../../components/callToActions/callToAction"
 
 import BannerBasicImg from "../../images/ph.png"
 
@@ -37,6 +42,12 @@ const Benefits = styled.div`
     img {
     }
   }
+`
+
+const GridItemWrapper = styled.div`
+  padding: 2em;
+  box-shadow: var(--shadow-light);
+  border-radius: var(--br);
 `
 
 export default function WebDesignerCalgary() {
@@ -99,7 +110,11 @@ export default function WebDesignerCalgary() {
           </TextWrapper>
         </Container>
       </Section>
-
+      <CallToAction
+        title="want to work with an affordable web designer?"
+        to="/contact"
+        location="start by sending me a message &#8594;"
+      />
       {/*  */}
       <Section>
         <Container>
@@ -150,6 +165,11 @@ export default function WebDesignerCalgary() {
         </Container>
       </Section>
       <ServicesFull title="Web Design Services Calgary" body="" />
+      <CallToAction
+        title="need help on your website project?"
+        to="/contact"
+        location="get a free quote &#8594;"
+      />
       <Section>
         <Container>
           <TextWrapper>
@@ -165,15 +185,16 @@ export default function WebDesignerCalgary() {
               </ButtonInline>{" "}
               have resulted in a successful and inexpensive outcome, with an
               even happier client that understands their dedicated freelance web
-              design specialist is only a phone call away. Here’s what James,
-              master electrician at Royco Electric, has been saying about his
-              experience in working together:
+              design specialist is only a phone call away. Here’s what Sam,
+              owner at Megasets, has been saying about his experience in working
+              together:
             </p>
             <blockquote>
               <p>
-                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum
-                repudiandae temporibus porro dolores quisquam incidunt.
-                Aspernatur culpa pariatur adipisci cupiditate?"
+                "We had a tight deadline for our website design project and
+                Aaron was very conscious of this and organised the project in
+                such a way that we comfortably achieved that. We can not
+                recommend Aaron highly enough!"
               </p>
             </blockquote>
           </TextWrapper>
@@ -221,12 +242,155 @@ export default function WebDesignerCalgary() {
           </TextWrapper>
         </Container>
       </Section>
+      <CallToAction
+        title="need an affordable website?"
+        to="/contact"
+        location="get a free quote &#8594;"
+      />
       <Section>
         <Container>
-          <h2 className="title">best calgary web design services</h2>
+          <TextWrapper>
+            <h2 className="title">best calgary web design services</h2>
+          </TextWrapper>
+          <Flex>
+            <GridItemWrapper>
+              <TextWrapper>
+                <h3>what is good design?</h3>
+                <ul>
+                  <li>
+                    Your website helps your business appear more professional
+                  </li>
+                  <li>
+                    Your customers find it easy to navigate the website and find
+                    the information they need at ease
+                  </li>
+                  <li>
+                    Your website uses effective{" "}
+                    <AnchorInline
+                      target="blank"
+                      href="https://www.investopedia.com/terms/c/call-action-cta.asp"
+                    >
+                      call-to-actions
+                    </AnchorInline>{" "}
+                    that will guide customers to taking a target action such as
+                    getting a free quote from your business
+                  </li>
+                  <li>
+                    Google wants to enable the best possible{" "}
+                    <AnchorInline
+                      target="blank"
+                      href="https://www.thecreativemomentum.com/blog/the-importance-of-user-experience-in-web-design"
+                    >
+                      user experiences
+                    </AnchorInline>{" "}
+                    for online customers so it’s important both in the eyes of
+                    Google, and your customers that your website is designed
+                    professionally
+                  </li>
+                  <li>
+                    A well-designed website is essential to the success of your
+                    SEO campaigns - Google will notice if a website is designed
+                    in a way that helps online searchers
+                  </li>
+                </ul>
+              </TextWrapper>
+            </GridItemWrapper>
+            <GridItemWrapper>
+              <TextWrapper>
+                <h3>Why is a website important for your business?</h3>
+                <ul>
+                  <li>
+                    A website is the #1 modern solution to communicating your
+                    company-related information to your customers
+                  </li>
+                  <li>
+                    A website is essential to getting more sales and customers
+                    online because{" "}
+                    <AnchorInline
+                      target="blank"
+                      href="https://seotribunal.com/blog/stats-to-understand-seo/#local-seo-facts"
+                    >
+                      97% of people
+                    </AnchorInline>{" "}
+                    learn more about a local company online than anywhere else
+                  </li>
+                  <li>
+                    A website helps you build trust between your company and
+                    your customers, as well as helping you establish yourself as
+                    an expert in the services or products you offer
+                  </li>
+                  <li>
+                    Leave a positive impression on customers that are doing
+                    research between local companies
+                  </li>
+                </ul>
+              </TextWrapper>
+            </GridItemWrapper>
+            <GridItemWrapper>
+              <TextWrapper>
+                <h3>why hire aaron tonner web solutions?</h3>
+                <ul>
+                  <li>
+                    At Aaron Tonner Web Solutions, I’m a one-man operation which
+                    means you know exactly who you’re working with at all times
+                  </li>
+                  <li>
+                    I'm a trusted freelancer with{" "}
+                    <ButtonInline to="/portfolio">proven results</ButtonInline>{" "}
+                    and top-rated customer support services
+                  </li>
+                  <li>
+                    Once-off pricing solutions so you know what you’re going to
+                    spend, before you spend
+                  </li>
+                  <li>
+                    I provide website design in Calgary and I provide on-site
+                    solutions which means you have the option of meeting me in
+                    person, or, if you prefer, meet me on a video call at your
+                    earliest convenience
+                  </li>
+                  <li>
+                    I’m only a phone call away anytime you have a question about
+                    your web design and development project both throughout and
+                    after completion
+                  </li>
+                  <li>
+                    After your business website is successfully launched online
+                    you will have the option to enter a no-contract retainer
+                    agreement where I provide regular website maintenance and
+                    updates, as well as local SEO services in Calgary
+                  </li>
+                  <li>
+                    You will have 100% ownership over all accounts created for
+                    your website. This includes a free account on{" "}
+                    <AnchorInline
+                      target="blank"
+                      href="https://www.netlify.com/"
+                    >
+                      Netlify
+                    </AnchorInline>{" "}
+                    to ensure a speedy and secure web hosting solution, a free{" "}
+                    <AnchorInline target="blank" href="https://github.com/">
+                      Github
+                    </AnchorInline>{" "}
+                    account to store the code that I developed to create your
+                    website in the rare case that you choose to change website
+                    providers, and a free{" "}
+                    <AnchorInline target="blank" href="https://ca.godaddy.com/">
+                      Godaddy
+                    </AnchorInline>{" "}
+                    account where I’ll help you make the right website domain
+                    choice
+                  </li>
+                </ul>
+              </TextWrapper>
+            </GridItemWrapper>
+          </Flex>
         </Container>
       </Section>
       <GalleryFeatured title="Top-rated Calgary Website Design and Development - View My Work" />
+      <Clients />
+      <FormContact />
     </Layout>
   )
 }
