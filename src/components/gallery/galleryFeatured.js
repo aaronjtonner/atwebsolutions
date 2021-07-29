@@ -6,7 +6,7 @@ import {
   Section,
   Container,
   Actions,
-  GridThree,
+  GridTwo,
   TextWrapper,
 } from "../layoutComponents"
 
@@ -29,7 +29,7 @@ export default function GalleryFeatured(props) {
         <TextWrapper>
           <h2 className="title">{props.title}</h2>
         </TextWrapper>
-        <GridThree>
+        <GridTwo>
           <ProjectLink href="https://www.bfirenovations.ca/" target="_popup">
             <StaticImage
               src={"../../images/projects/web-design-project-6.png"}
@@ -55,7 +55,7 @@ export default function GalleryFeatured(props) {
             </div>
           </ProjectLink>
           {/* end project */}
-          <ProjectLink href="https://www.tractor1.com/" target="_popup">
+          {/* <ProjectLink href="https://www.tractor1.com/" target="_popup">
             <StaticImage
               src={"../../images/projects/web-design-project-4.png"}
               alt="web design project"
@@ -64,9 +64,9 @@ export default function GalleryFeatured(props) {
             <div>
               <Location>www.tractor1.com</Location>
             </div>
-          </ProjectLink>
+          </ProjectLink> */}
           {/* end project */}
-        </GridThree>
+        </GridTwo>
       </Container>
     </Section>
   )

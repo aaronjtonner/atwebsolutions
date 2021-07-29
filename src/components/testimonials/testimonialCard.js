@@ -55,7 +55,7 @@ export default function TestimonialCard(props) {
           <p className="bold">{props.name}</p>
           <p className="italics body--small">{props.position}</p>
         </Name>
-        <a target="_popup" href={props.url}>
+        <a target="blank" href={props.url}>
           live website
         </a>
         <p className="body--small italics">{props.disclaimer}</p>

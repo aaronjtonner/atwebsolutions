@@ -93,6 +93,9 @@ export default function FooterBasic() {
             <FlexItem>
               <p className="heading bold upper">get in touch</p>
               <ul>
+                <li className="italics">Aaron Tonner Web Solutions</li>
+              </ul>
+              <ul>
                 <li>
                   <FlexContact>
                     <FaPhoneAlt className="accent" />
@@ -112,7 +115,10 @@ export default function FooterBasic() {
                 <li>
                   <FlexContact>
                     <FaRegClock className="accent" />
-                    <p>9:00 AM - 4:00 PM</p>
+                    <div>
+                      <p>Monday - Friday</p>
+                      <p>9:00 AM - 4:00 PM</p>
+                    </div>
                   </FlexContact>
                 </li>
               </ul>
