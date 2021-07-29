@@ -23,7 +23,7 @@ module.exports = {
         exclude: [`/thank-you/`, `/privacy-policy/`],
       },
     },
-    ga
+    // ga
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
