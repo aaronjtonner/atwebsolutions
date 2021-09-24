@@ -6,7 +6,7 @@ import Hero from "../components/heros/hero"
 import Clients from "../components/clients"
 import Bio from "../components/bio"
 import FormContact from "../components/forms/formContact"
-import GallerySingle from "../components/gallery/gallerySingle"
+import GalleryFeatured from "../components/gallery/galleryFeatured"
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
       <Hero />
       <Clients />
       <Bio />
-      <GallerySingle title="featured project" />
+      <GalleryFeatured title="featured website projects" />
       <FormContact />
       <Clients />
     </Layout>

@@ -7,8 +7,10 @@ import {
   Container,
   Actions,
   GridTwo,
+  GridThree,
   TextWrapper,
 } from "../layoutComponents"
+import { ButtonPrimary } from "../buttons"
 
 const ProjectLink = styled.a`
   text-decoration: none;
@@ -25,14 +27,29 @@ const Location = styled.p`
 export default function GalleryFeatured(props) {
   return (
     <Section>
-      <Container>
+      <Container className="spacing">
         <TextWrapper>
           <h2 className="title">{props.title}</h2>
         </TextWrapper>
         <GridTwo>
+          <ProjectLink href="https://www.roycoelectric.com/" target="_popup">
+            <StaticImage
+              src={
+                "../../images/projects/web-design-project-royco-electric.png"
+              }
+              alt="web design project"
+              placeholder="blurred"
+            />
+            <div>
+              <Location>www.roycoelectric.com</Location>
+            </div>
+          </ProjectLink>
+          {/* end project */}
           <ProjectLink href="https://www.bfirenovations.ca/" target="_popup">
             <StaticImage
-              src={"../../images/projects/web-design-project-6.png"}
+              src={
+                "../../images/projects/web-design-project-bfi-renovations.png"
+              }
               alt="web design project"
               placeholder="blurred"
             />
@@ -41,32 +58,10 @@ export default function GalleryFeatured(props) {
             </div>
           </ProjectLink>
           {/* end project */}
-          <ProjectLink
-            href="https://www.iconformingsystems.com/"
-            target="_popup"
-          >
-            <StaticImage
-              src={"../../images/projects/web-design-project-5.png"}
-              alt="web design project"
-              placeholder="blurred"
-            />
-            <div>
-              <Location>www.iconformingsystems.com</Location>
-            </div>
-          </ProjectLink>
-          {/* end project */}
-          {/* <ProjectLink href="https://www.tractor1.com/" target="_popup">
-            <StaticImage
-              src={"../../images/projects/web-design-project-4.png"}
-              alt="web design project"
-              placeholder="blurred"
-            />
-            <div>
-              <Location>www.tractor1.com</Location>
-            </div>
-          </ProjectLink> */}
-          {/* end project */}
         </GridTwo>
+        <ButtonPrimary to="/portfolio">
+          View full portfolio &#8594;
+        </ButtonPrimary>
       </Container>
     </Section>
   )

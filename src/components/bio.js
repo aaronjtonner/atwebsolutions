@@ -55,10 +55,9 @@ export default function Bio(props) {
           </GridImg>
           <GridBio className="spacing">
             <p className="body">
-              Hi, I’m Aaron, a Civil Engineering graduate and I'm here to help
-              your business build and improve your website and marketing
-              strategies to increase your growth, optimize your conversions, and
-              skyrocket your sales.
+              I’m Aaron, a Civil Engineering graduate and I'm here help your
+              business set up and manage a professional way to promote your
+              services online to build more trust with your customers.
             </p>
             <div>
               <p className="bold italics">Web Design & Marketing</p>

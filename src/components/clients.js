@@ -34,6 +34,13 @@ export default function Clients() {
       <Container className="spacing-lg">
         <p className="body--large center">Trusted by</p>
         <Flex>
+          {/* <div>
+            <StaticImage
+              src={"../images/clients/web-design-client-7.svg"}
+              alt="web design client logo"
+              placeholder="blurred"
+            />
+          </div> */}
           <div>
             <StaticImage
               src={"../images/clients/web-design-client-6.svg"}

@@ -51,19 +51,21 @@ const Hero = () => {
         <HeroBox>
           <HeroText className="spacing-lg">
             <h1>
-              I’m a web designer & digital marketing freelancer with proven
+              {/* I’m a web designer & digital marketing freelancer with proven
               solutions that will help you{" "}
-              <span className="italics">grow your business.</span>
+              <span className="italics">grow your business.</span> */}
+              Top-rated web designer & developer with proven solutions that will
+              help your business{" "}
+              <span className="italics"> look more professional online.</span>
             </h1>
             <Actions>
               <ButtonPrimary to="/portfolio">see my work &#8594;</ButtonPrimary>
             </Actions>
             <Review className="spacing">
               <p className="italics">
-                "We couldn't be happier with our choice to hire Aaron for our
-                web design project. One of the best things about working with
-                Aaron was the ideas and suggestions he came up with to take our
-                project to a more professional level."
+                "One of the best things about working with Aaron was the ideas
+                and suggestions he came up with to take our project to a{" "}
+                <span className="bold"> more professional level.</span>"
               </p>
               <div>
                 <p className="body--strong">Sam Swift-Glasman</p>
