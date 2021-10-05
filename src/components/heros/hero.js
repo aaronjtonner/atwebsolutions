@@ -54,22 +54,26 @@ const Hero = () => {
               {/* I’m a web designer & digital marketing freelancer with proven
               solutions that will help you{" "}
               <span className="italics">grow your business.</span> */}
-              Top-rated web designer & developer with proven solutions that will
-              help your business{" "}
-              <span className="italics"> look more professional online.</span>
+              Top-rated web designer & developer with proven marketing solutions
+              that will help your business{" "}
+              <span className="italics"> increase revenue and exposure.</span>
             </h1>
             <Actions>
               <ButtonPrimary to="/portfolio">see my work &#8594;</ButtonPrimary>
             </Actions>
             <Review className="spacing">
               <p className="italics">
-                "One of the best things about working with Aaron was the ideas
-                and suggestions he came up with to take our project to a{" "}
-                <span className="bold"> more professional level.</span>"
+                "I highly recommend Aaron to any business not only looking for a
+                great website but to{" "}
+                <span className="bold">increase revenue and exposure.</span> The
+                tools he installed have already increased our customer
+                connections."
               </p>
               <div>
-                <p className="body--strong">Sam Swift-Glasman</p>
-                <p className="italics body--small">Founder of Megasets.ai</p>
+                <p className="body--strong">James W Ross</p>
+                <p className="italics body--small">
+                  President, Royco Electric Ltd.
+                </p>
               </div>
             </Review>
           </HeroText>

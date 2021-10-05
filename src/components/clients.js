@@ -9,9 +9,6 @@ const Section = styled.section`
 `
 
 const Flex = styled.div`
-  /* display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(14em, 1fr));
-  grid-gap: 2em; */
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -24,7 +21,7 @@ const Flex = styled.div`
   }
 
   img {
-    width: 150px;
+    width: 90px;
   }
 `
 
@@ -34,13 +31,13 @@ export default function Clients() {
       <Container className="spacing-lg">
         <p className="body--large center">Trusted by</p>
         <Flex>
-          {/* <div>
+          <div>
             <StaticImage
               src={"../images/clients/web-design-client-7.svg"}
               alt="web design client logo"
               placeholder="blurred"
             />
-          </div> */}
+          </div>
           <div>
             <StaticImage
               src={"../images/clients/web-design-client-6.svg"}
