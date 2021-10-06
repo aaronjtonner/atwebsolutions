@@ -7,6 +7,7 @@ import Clients from "../components/clients"
 import Bio from "../components/bio"
 import FormContact from "../components/forms/formContact"
 import GalleryFeatured from "../components/gallery/galleryFeatured"
+import GoogleReviewsFeatured from "../components/testimonials/GoogleReviewsFeatured"
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Clients />
       <Bio />
       <GalleryFeatured title="featured website projects" />
+      <GoogleReviewsFeatured />
       <FormContact />
       <Clients />
     </Layout>

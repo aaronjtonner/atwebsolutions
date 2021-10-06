@@ -6,7 +6,7 @@ module.exports = {
       "I am a highly reviewed web designer in Calgary. I offer affordable web design, development, SEO services in Calgary for your local business. Call me at 587-437-9161 to discuss your next website project!",
     url: "https://www.aarontonner.com", // No trailing slash allowed!
     siteUrl: "https://www.aarontonner.com",
-    image: "/images/logo.svg", // Path to your image you placed in the 'static' folder
+    image: "/images/thumbnail.jpg", // Path to your image you placed in the 'static' folder
     twitterUsername: "",
   },
   plugins: [

@@ -198,6 +198,9 @@ export default function HeaderBasic() {
                 </ul>
               </Dropdown>
               <li>
+                <StyledLink to="/reviews">reviews</StyledLink>
+              </li>
+              <li>
                 <StyledLink to="/contact">contact</StyledLink>
               </li>
             </NavList>

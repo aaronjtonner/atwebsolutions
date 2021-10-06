@@ -6,6 +6,7 @@ import {
   Section,
   Container,
   Actions,
+  GridOne,
   GridTwo,
   GridThree,
   TextWrapper,
@@ -14,10 +15,6 @@ import { ButtonPrimary } from "../buttons"
 
 const ProjectLink = styled.a`
   text-decoration: none;
-
-  img {
-    border: 1px solid var(--txt-dark);
-  }
 `
 const Location = styled.p`
   text-decoration: underline;
@@ -31,12 +28,10 @@ export default function GalleryFeatured(props) {
         <TextWrapper>
           <h2 className="title">{props.title}</h2>
         </TextWrapper>
-        <GridTwo>
+        <>
           <ProjectLink href="https://www.roycoelectric.com/" target="_popup">
             <StaticImage
-              src={
-                "../../images/projects/web-design-project-royco-electric.png"
-              }
+              src={"../../images/projects/royco-electric-mockup.png"}
               alt="web design project"
               placeholder="blurred"
             />
@@ -47,9 +42,7 @@ export default function GalleryFeatured(props) {
           {/* end project */}
           <ProjectLink href="https://www.bfirenovations.ca/" target="_popup">
             <StaticImage
-              src={
-                "../../images/projects/web-design-project-bfi-renovations.png"
-              }
+              src={"../../images/projects/bfi-renovations-mockup.png"}
               alt="web design project"
               placeholder="blurred"
             />
@@ -58,7 +51,7 @@ export default function GalleryFeatured(props) {
             </div>
           </ProjectLink>
           {/* end project */}
-        </GridTwo>
+        </>
         <ButtonPrimary to="/portfolio">
           View full portfolio &#8594;
         </ButtonPrimary>

@@ -129,6 +129,11 @@ hr {
   border: 1px solid var(--clr-accent);
 }
 
+.inline-link {
+  color: var(--clr-accent);
+  font-size: var(--fs-b);
+}
+
 /* typography */
 .title {
   font-size: var(--fs-1);

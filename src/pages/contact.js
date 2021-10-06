@@ -6,6 +6,7 @@ import Header from "../components/headers/headerBasic"
 import FormContact from "../components/forms/formContact"
 import Clients from "../components/clients"
 import FooterBasic from "../components/footers/footerBasic"
+import GoogleReviewsFeatured from "../components/testimonials/GoogleReviewsFeatured"
 
 export default function Contact() {
   return (
@@ -13,6 +14,7 @@ export default function Contact() {
       <SEO title="Contact" />
       <Header />
       <FormContact />
+      <GoogleReviewsFeatured />
       <Clients />
       <FooterBasic />
     </div>
