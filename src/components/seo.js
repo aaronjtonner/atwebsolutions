@@ -54,65 +54,6 @@ const SEO = ({ title, description, image, article }) => {
       )}
 
       {seo.image && <meta name="twitter:image" content={seo.image} />}
-
-      <script type="application/ld+json">
-        {`
-        "@context" : "http://schema.org",
-  "@type" : "LocalBusiness",
-  "name" : "Aaron Tonner Web Solutions",
-  "telephone" : "587-437-9161",
-  "email" : "aaron@aarontonner.com",
-  "address" : {
-    "@type" : "PostalAddress",
-    "addressLocality" : "Calgary",
-    "addressRegion" : "AB",
-    "addressCountry" : "Canada"
-  },
-  "openingHoursSpecification" : {
-    "@type" : "OpeningHoursSpecification",
-    "dayOfWeek" : {
-      "@type" : "DayOfWeek",
-      "name" : "Monday - Friday"
-    },
-    "opens" : "09:00:00",
-    "closes" : "16:00:00"
-  },
-  "review" : [ {
-    "@type" : "Review",
-    "author" : {
-      "@type" : "Person",
-      "name" : "Sam Swift-Glasman"
-    },
-    "reviewRating" : {
-      "@type" : "Rating",
-      "ratingValue" : "5"
-    },
-    "reviewBody" : "One of the best things about working with Aaron was the ideas and suggestions he came up with to take our project to a more professional level."
-  }, {
-    "@type" : "Review",
-    "author" : {
-      "@type" : "Person",
-      "name" : "Jacques Camier"
-    },
-    "reviewRating" : {
-      "@type" : "Rating",
-      "ratingValue" : "5"
-    },
-    "reviewBody" : "Aaron exceeded my expectations in all areas for my redesign. I already plan on hiring Aaron for my next three projects!"
-  }, {
-    "@type" : "Review",
-    "author" : {
-      "@type" : "Person",
-      "name" : "Brenden Marchewka"
-    },
-    "reviewRating" : {
-      "@type" : "Rating",
-      "ratingValue" : "5"
-    },
-    "reviewBody" : "Aaron does a superb job in maintaining our website as we grow and changes are required. This support allows our growing consultancy to focus on our day-to-day."
-  } ]
-      `}
-      </script>
     </Helmet>
   )
 }
