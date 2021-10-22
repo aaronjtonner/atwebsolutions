@@ -40,7 +40,10 @@ export default function ServicesFull(props) {
           <p>{props.body}</p>
         </TextWrapper>
         <GridTwo>
-          <Service to="/services/web-designer-calgary" className="spacing">
+          <Service
+            to="/services/affordable-web-design-calgary"
+            className="spacing"
+          >
             <StaticImage
               className="service-img"
               src={"../../images/services/web-design-calgary.png"}
@@ -49,7 +52,8 @@ export default function ServicesFull(props) {
             />
             <h2 className="heading bold">web design</h2>
             <p>
-              I provide <strong> website design in Calgary</strong> for
+              I provide{" "}
+              <strong> cost-effective website design in Calgary</strong> for
               construction companies, electricians, home renovators, and other
               local businesses of any size. A professional website is the
               foundation necessary to growing your business online so your

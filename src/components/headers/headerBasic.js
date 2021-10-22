@@ -191,7 +191,7 @@ export default function HeaderBasic() {
                 </StyledLink>
                 <ul>
                   <li>
-                    <StyledLink to="/services/web-designer-calgary">
+                    <StyledLink to="/services/affordable-web-design-calgary">
                       web design
                     </StyledLink>
                   </li>

@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { StaticImage } from "gatsby-plugin-image"
 import { Section, Container } from "./layoutComponents"
+import { ButtonInline } from "../components/buttons"
 
 const AboutGrid = styled.div`
   display: flex;
@@ -55,9 +56,13 @@ export default function Bio(props) {
           </GridImg>
           <GridBio className="spacing">
             <p className="body">
-              I’m Aaron, a Civil Engineering graduate and I'm here help your
-              business set up and manage a professional way to promote your
-              services online to build more trust with your customers.
+              I come from a Civil Engineering background, and I provide proven &{" "}
+              <ButtonInline to="/services/affordable-web-design-calgary">
+                affordable web design
+              </ButtonInline>{" "}
+              and development, regular web maintenance & updates, local SEO, and
+              other internet marketing services that will help your business
+              increase revenue and customer connections.
             </p>
             <div>
               <p className="bold italics">Web Design & Marketing</p>

@@ -140,8 +140,8 @@ export default function FooterBasic() {
                   <StyledLink to="/services">services</StyledLink>
                 </li>
                 <li>
-                  <StyledLink to="/services/web-designer-calgary">
-                    web designer calgary
+                  <StyledLink to="/services/affordable-web-design-calgary">
+                    web design
                   </StyledLink>
                 </li>
                 <li>
@@ -154,7 +154,7 @@ export default function FooterBasic() {
               <ul>
                 <li>
                   I offer affordable{" "}
-                  <ButtonInline to="/services/calgary-web-designer">
+                  <ButtonInline to="/services/affordable-web-design-calgary">
                     web design
                   </ButtonInline>
                   , web development, regular web maintenance & updates, local

@@ -118,7 +118,7 @@ export const ButtonUnderline = styled(props => <Link {...props} />)`
 `
 
 export const ButtonInline = styled(props => <Link {...props} />)`
-  display: inline-block;
+  display: inline;
   color: var(--clr-accent);
 `
 
