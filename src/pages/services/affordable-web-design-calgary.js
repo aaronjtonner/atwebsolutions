@@ -1,5 +1,6 @@
 import React from "react"
 import { Helmet } from "react-helmet"
+import { StaticImage } from "gatsby-plugin-image"
 import styled from "styled-components"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
@@ -159,6 +160,7 @@ export default function WebDesignerCalgary() {
         <Container>
           <TextWrapper>
             <h2 className="title">calgary web design</h2>
+
             <Benefits>
               <div>
                 <img src={Trusted} alt="trusted web designer in calgary" />
@@ -178,6 +180,16 @@ export default function WebDesignerCalgary() {
               </div>
             </Benefits>
             <hr />
+            <StaticImage
+              className="float-left"
+              src={
+                "../../images/affordable-web-design-calgary/affordable-web-design-calgary.jpg"
+              }
+              alt="an affordable web designer in calgary"
+              placeholder="blurred"
+              objectFit="cover"
+              width="150px"
+            />
             <p>
               I am a trusted, and{" "}
               <ButtonInline to="/reviews">highly-reviewed</ButtonInline> website
@@ -245,27 +257,29 @@ export default function WebDesignerCalgary() {
                 so you can:
               </p>
               <ul>
-                <li>Get more customers, increase your profits</li>
-                <li>
-                  Have a 24-hour, 7-days-a-week, online salesmen for your
-                  business
-                </li>
-                <li>Appear more professional </li>
-                <li>Get seen online</li>
-                <li>
-                  Display your services, past work, photos, customer reviews,
-                  products, contact information, service areas or store
-                  locations, team members, social profiles, and more!
-                </li>
-                <li>
-                  Save time by having answers to common customer questions
-                </li>
-                <li>Gain trust from potential customers</li>
-                <li>Establish credibility for your business</li>
-                <li>Be seen as an expert in your industry</li>
+                <li>Grow and expand your business</li>
+                <li>Improve your brand awareness</li>
+                <li>Increase your sales and get more clients</li>
+                <li>Spend more time on revenue building activities</li>
               </ul>
-              <p>...and so much more.</p>
             </TextWrapper>
+          </div>
+          <div className="spacing">
+            <TextWrapper>
+              <p>
+                Here's a past website design project for a local business that
+                resulted in an increase in customer connections and revenue
+                growth:
+              </p>
+            </TextWrapper>
+            <StaticImage
+              src={
+                "../../images/affordable-web-design-calgary/affordable-web-design-for-local-business.png"
+              }
+              alt="affordable web design for local business in Calgary"
+              placeholder="blurred"
+              objectFit="cover"
+            />
           </div>
         </Container>
       </Section>
@@ -284,25 +298,24 @@ export default function WebDesignerCalgary() {
               receive <ButtonInline to="/reviews">top-rated</ButtonInline> web
               design services Calgary has to offer! I’m here to provide you with
               a website and marketing solution that’s right for your business
-              goals and budget. Quality communication is the #1 reason that all
-              of my{" "}
+              goals and budget. Quality communication and a deep understanding
+              of business goals and challenges have been the primary reasons
+              that all of my{" "}
               <ButtonInline to="/portfolio">
                 past web design & development projects
               </ButtonInline>{" "}
               have resulted in a successful and inexpensive outcome, with an
               even happier client that understands their trusted web design
-              specialist is only a phone call away. Here’s what Sam, owner at
-              Megasets, has been saying about his experience in working
-              together:
+              specialist is only a phone call away.
             </p>
-            <blockquote>
-              <p>
-                "We had a tight deadline for our website design project and
-                Aaron was very conscious of this and organised the project in
-                such a way that we comfortably achieved that. We cannot
-                recommend Aaron highly enough!"
-              </p>
-            </blockquote>
+            <StaticImage
+              src={
+                "../../images/affordable-web-design-calgary/affordable-web-design-project-review.png"
+              }
+              alt="affordable web design Calgary - a past customer review"
+              placeholder="blurred"
+              objectFit="cover"
+            />
           </TextWrapper>
         </Container>
       </Section>
@@ -310,7 +323,16 @@ export default function WebDesignerCalgary() {
         <Container>
           <TextWrapper>
             <h2 className="title">calgary web design prices</h2>
-
+            <StaticImage
+              className="float-left"
+              src={
+                "../../images/affordable-web-design-calgary/calgary-web-design-prices.png"
+              }
+              alt="calgary web design prices - affordable services"
+              placeholder="blurred"
+              objectFit="cover"
+              width="150px"
+            />
             <p>
               Working with an{" "}
               <ButtonInline to="/reviews">experienced and trusted</ButtonInline>{" "}
@@ -333,18 +355,13 @@ export default function WebDesignerCalgary() {
               your web design project quote.
             </p>
             <p>
-              Web design pricing is also determined by other factors relating to
-              your business such as:
+              Calgary web design pricing is determined by many factors related
+              to your business so it's important to{" "}
+              <ButtonInline to="/contact">
+                schedule a consultation call{" "}
+              </ButtonInline>{" "}
+              to discuss a solution that aligns with your business.
             </p>
-            <ul>
-              <li>
-                What you’re currently doing to get new leads for your business
-              </li>
-              <li>What your sales process is like</li>
-              <li>Your ideal customer and geographic locations you serve</li>
-              <li>Your competition</li>
-              <li>Services and products you offer</li>
-            </ul>
           </TextWrapper>
         </Container>
       </Section>
@@ -362,6 +379,14 @@ export default function WebDesignerCalgary() {
             <GridItemWrapper>
               <TextWrapper>
                 <h3>what is good design?</h3>
+                <StaticImage
+                  src={
+                    "../../images/affordable-web-design-calgary/affordable-website-design-services-calgary.png"
+                  }
+                  alt="affordable web design calgary"
+                  placeholder="blurred"
+                  objectFit="cover"
+                />
                 <ul>
                   <li>
                     Your website helps your business appear more professional
@@ -404,6 +429,14 @@ export default function WebDesignerCalgary() {
             <GridItemWrapper>
               <TextWrapper>
                 <h3>Why is a website important for your business?</h3>
+                <StaticImage
+                  src={
+                    "../../images/affordable-web-design-calgary/affordable-web-designer-calgary.jpg"
+                  }
+                  alt="affordable web designer in calgary"
+                  placeholder="blurred"
+                  objectFit="cover"
+                />
                 <ul>
                   <li>
                     A website is the #1 modern solution to communicating your
@@ -435,14 +468,22 @@ export default function WebDesignerCalgary() {
             <GridItemWrapper>
               <TextWrapper>
                 <h3>why hire aaron tonner web solutions?</h3>
+                <StaticImage
+                  src={
+                    "../../images/affordable-web-design-calgary/affordable-calgary-web-designer.jpg"
+                  }
+                  alt="affordable calgary web designer"
+                  placeholder="blurred"
+                  objectFit="cover"
+                />
                 <ul>
                   <li>
                     At{" "}
                     <ButtonInline to="/">
-                      Aaron Tonner Web Solutions
+                      Aaron Tonner Web Solutions{" "}
                     </ButtonInline>
-                    , I’m a one-man operation which means you know exactly who
-                    you’re working with at all times
+                    you're going to work with the same consultant throughout the
+                    entire project
                   </li>
                   <li>
                     I'm a trusted and affordable Calgary web design and

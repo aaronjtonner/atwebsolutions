@@ -134,6 +134,12 @@ hr {
   font-size: var(--fs-b);
 }
 
+.float-left {
+  float: left;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
 /* typography */
 .title {
   font-size: var(--fs-1);
