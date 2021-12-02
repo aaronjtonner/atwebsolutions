@@ -197,7 +197,7 @@ export default function WebDesignerCalgary() {
               <strong>affordable web design Calgary</strong> services. I provide
               5-star website design, website development, ongoing website
               maintenance & updates, and local SEO services at a cost that is
-              gauranteed to suit your budget, big or small! If you are a
+              guaranteed to suit your budget, big or small! If you are a
               business owner who needs to look more professional online while
               increasing your revenue and customer connections, call{" "}
               <AnchorInline href="tel: 587-437-9161">587-437-9161</AnchorInline>
