@@ -54,8 +54,8 @@ const Hero = () => {
               {/* I’m a web designer & digital marketing freelancer with proven
               solutions that will help you{" "}
               <span className="italics">grow your business.</span> */}
-              Top-rated web designer & developer with proven marketing solutions
-              that will help your business{" "}
+              Highly-reviewed web designer & marketing professional with proven
+              solutions that will help your business{" "}
               <span className="italics"> increase revenue and exposure.</span>
             </h1>
             <Actions>

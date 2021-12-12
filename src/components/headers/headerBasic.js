@@ -29,6 +29,7 @@ const HeaderWrapper = styled.div`
 
 const LogoContainer = styled.div`
   margin-right: 2em;
+  width: 250px;
 `
 
 const Nav = styled.nav`
@@ -168,7 +169,7 @@ export default function HeaderBasic() {
           <LogoContainer>
             <StyledLink to="/">
               <StaticImage
-                src={"../../images/logo-light.svg"}
+                src={"../../images/logo-blue-white.svg"}
                 alt="aaron tonner web solutions logo"
                 placeholder="blurred"
               />

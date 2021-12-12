@@ -83,7 +83,7 @@ export default function FooterBasic() {
             <center>
               <StaticImage
                 className="logo-img"
-                src={"../../images/logo-light.svg"}
+                src={"../../images/logo-blue-white.svg"}
                 alt="aaron tonner web solutions logo"
                 placeholder="blurred"
               />

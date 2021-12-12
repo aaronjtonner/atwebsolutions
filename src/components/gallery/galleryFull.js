@@ -69,7 +69,7 @@ export default function GalleryFull() {
                 href="https://www.roycoelectric.com/"
                 target="blank"
               >
-                view live website &#8594;
+                visit live website &#8594;
               </AnchorPrimary>
             </ProjectOverviewText>
           </ProjectOverview>
@@ -96,7 +96,7 @@ export default function GalleryFull() {
                 href="https://www.bfirenovations.ca/"
                 target="blank"
               >
-                view live website &#8594;
+                visit live website &#8594;
               </AnchorPrimary>
             </ProjectOverviewText>
           </ProjectOverview>
@@ -123,13 +123,13 @@ export default function GalleryFull() {
                 href="https://www.iconformingsystems.com"
                 target="blank"
               >
-                view live website &#8594;
+                visit live website &#8594;
               </AnchorPrimary>
             </ProjectOverviewText>
           </ProjectOverview>
         </>
-        <ProjectsGrid>
-          {/* full gallery here - use ProjectLink for each item as shown below */}
+        {/* <ProjectsGrid>
+          
           <ProjectLink href="https://www.roycoelectric.com/" target="_popup">
             <StaticImage
               src={
@@ -200,7 +200,7 @@ export default function GalleryFull() {
               <Location>www.tractor1.com</Location>
             </div>
           </ProjectLink>
-        </ProjectsGrid>
+        </ProjectsGrid> */}
       </Container>
     </Section>
   )
