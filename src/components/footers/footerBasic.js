@@ -89,6 +89,30 @@ export default function FooterBasic() {
               />
             </center>
           </Logo>
+          <center>
+            <a
+              href="https://www.bbb.org/ca/ab/calgary/profile/digital-marketing/aaron-tonner-web-solutions-0017-126484/#sealclick"
+              target="_blank"
+              rel="nofollow"
+            >
+              <img
+                src="https://seal-calgary.bbb.org/seals/blue-seal-120-61-bbb-126484.png"
+                style={{ border: 0 }}
+                alt="Aaron Tonner Web Solutions BBB Business Review"
+              />
+            </a>
+            {/* <a
+              href="https://www.bbb.org/ca/ab/calgary/profile/digital-marketing/aaron-tonner-web-solutions-0017-126484/#sealclick"
+              target="_blank"
+              rel="nofollow"
+            >
+              <img
+                src="https://seal-calgary.bbb.org/seals/blue-seal-120-70-bbb-126484.png"
+                style={{ border: 0 }}
+                alt="Aaron Tonner Web Solutions BBB Business Review"
+              />
+            </a> */}
+          </center>
           <Flex>
             <FlexItem>
               <p className="heading bold upper">get in touch</p>
@@ -188,7 +212,7 @@ export default function FooterBasic() {
         </div>
         <Copy>
           <StyledLink to="/privacy-policy">privacy policy</StyledLink>
-          <p>&#169;2021 Aaron Tonner Web Solutions</p>
+          <p>&#169;2022 Aaron Tonner Web Solutions</p>
         </Copy>
       </Container>
     </FooterWrapper>

@@ -1,5 +1,4 @@
 import React from "react"
-
 import SEO from "./seo"
 import HeaderBasic from "./headers/headerBasic"
 import FormContact from "../components/forms/formContact"
